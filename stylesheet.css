@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(
+      0deg,
+      rgba(55, 55, 55, 0.7),
+      rgba(55, 55, 55, 0.7)
+    ),
+    url(./images/pokemon.png);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.list {
+  color: black;
+  font-size: 70px;
+}
+
+.Heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  gap: 5px;
+  color: white;
+}
+.pokemon-info {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-left: 50px;
+  margin: 100px;
+  padding: 60px;
+  gap: 10px;
+}
+img {
+  height: 150px;
+}
+.pokemon-list-container {
+  display: grid;
+  justify-content: center;
+  place-items: center;
+  align-items: center;
+  margin: 5px;
+  padding: 50px;
+  grid-template-columns: repeat(4, 1fr 1fr 1fr);
+}
+
+.nex {
+  justify-content: center;
+  align-items: center;
+  background-color: firebrick;
+  padding: 15px;
+}
+.next {
+  margin-top: 150%;
+  margin-left: -590px;
+}
+
+.poko {
+  width: 80px;
+  height: 80px;
+  transform: rotateY(180deg);
+  transition: 1s;
+  gap: 10px;
+}
+.definition {
+  justify-content: center;
+  margin: -5%;
+}
+.pokemon-buttons:hover {
+  gap: 10px;
+}
+
+.specs {
+  margin: 5px;
+}
+.contain {
+  background: rgba(248, 231, 28, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 20px;
+}
+.creature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
